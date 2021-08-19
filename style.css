@@ -1,0 +1,57 @@
+
+#name{
+    text-align: center;
+    font-size: 25px;
+}
+
+#content{
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+}
+
+#aboutMe, #education{
+    text-align: justify;
+    padding: 10px 50px;
+    /* border: 1px solid rgb(43, 43, 43); */
+    border-radius: 10px;
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    margin: 0px 20px;
+}
+
+#aboutMe h3, #education h3{
+    text-align: center;
+}
+
+#exprerience{
+    display:inline-block;
+    width: 95vw;
+    box-sizing: border-box;
+}
+
+#exprerience h3{
+    text-align: center;
+}
+
+#exprerience h4{
+    margin-bottom: 0;
+}
+
+#exprerience p{
+    margin-top: 0;
+}
+
+.job{
+    display:inline-block;
+    width: 30%;
+    text-align: left;
+    border: 1px solid rgb(75, 74, 74);
+    border-radius: 10px;
+}
+
+.job h4, .job p{
+    text-align: center;
+}
