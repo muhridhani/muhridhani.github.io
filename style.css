@@ -75,3 +75,14 @@ body{
     margin: 10px 0px;
     color: white;
 }
+
+@media only screen and (max-width:800px) {
+    #aboutMe, #education {
+        width: 90%;
+    }
+
+    .job {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+}
