@@ -1,0 +1,509 @@
+/* for handphone */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    background-color: rgb(233, 231, 231);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    position: relative;
+}
+
+.image {
+    background-color: white;
+    left: 1%;
+    right: 1%;
+    top: 0;
+    bottom: 0;
+    margin: 0 15px;
+    box-sizing: border-box;
+    position: absolute;
+    background-image: url(/contact/contact.png);
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: 100% 100%;
+    z-index: 21;
+}
+
+header {
+    width: 90.8vw;
+    padding: 10px;
+    position: fixed;
+    box-sizing: border-box;
+    /* height: 85px; */
+}
+
+.header_putih {
+    background-color: white;
+    box-shadow: 0px 3px 10px #888888;
+    /* animation: fadeIn 1s; */
+
+}
+
+.header_logo {
+    width: 7vw;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav {
+    float: right;
+    margin-right: 30px;
+}
+
+.nav,
+li {
+    display: inline-block;
+}
+
+.nav a {
+    font-size: 2.8vw;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.nav a:hover {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    color: black;
+}
+
+ul {
+    display: inline-block;
+}
+
+.navnya {
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.aktif {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    padding-bottom: 2px;
+}
+
+.hilang {
+    display: none;
+    animation: fadeIn ease 10s;
+}
+
+.im {
+    /* background-color: violet; */
+    display: inline-block;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.im_1,
+.im_2 {
+    font-size: 4vw;
+}
+
+.im_3 {
+    font-size: 2.5vw;
+    margin-top: 5px;
+}
+
+.linknya {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 40vw;
+    font-weight: bold;
+}
+
+.linknya li {
+    margin-right: 5px;
+}
+
+.linknya span {
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Oswald', sans-serif;
+}
+
+.linknya a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 1.3vw;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.linknya a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+    margin-left: 3px;
+}
+
+/* icon menu  */
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-7px, -8px);
+}
+
+.im {
+    margin-top: 30%;
+    margin-left: 0;
+}
+
+.im a{
+    text-decoration: none;
+}
+
+.im h2{
+    color :rgb(97, 97, 97);
+    margin-left: 15px;
+}
+
+.im a:hover .wa{
+    background-color: rgb(76, 187, 76);
+}
+
+.wa{
+    padding: 10px 20px;
+    border-radius: 40px;
+    width : 200px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    color: white;
+    box-shadow: 10px 10px 10px rgb(121, 121, 121);
+}
+
+.imgg{
+    margin-right: 10px;
+    font-size:25px
+}
+
+
+@media only screen and (min-width: 620px) {
+    /* for tablet */
+
+    .home {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .image {
+        margin: 0 15px;
+        background-size: 70%;
+        background-position: 100% 100%;
+
+    }
+
+    header {
+        width: 97.2%;
+        padding: 25px;
+    }
+
+    .header_logo {
+        width: 40px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    header span {
+        font-size: 2.5vw;
+        top: 0px;
+    }
+
+    .nav {
+        float: right;
+        margin-right: 50px;
+    }
+
+    .nav a {
+        font-size: 2vw;
+        margin-left: 10px;
+    }
+
+    .navnya {
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+
+    .about {
+        width: 100%;
+        height: 450px;
+    }
+
+    .aboutnya {
+        top: 0;
+        bottom: 0;
+        margin: 0px 15px;
+        padding: 10px;
+    }
+
+    .about_me {
+        /* background-color: rgb(233, 231, 231); */
+        padding: 40px 20px;
+    }
+
+
+    .cv {
+        margin-top: 50px;
+    }
+
+    .im {
+        margin-top: 15vw;
+        margin-left: 5vw;
+    }
+
+    .im_1,
+    .im_2 {
+        font-size: 3.5vw;
+    }
+
+    .im_3 {
+        font-size: 2.5vw;
+        margin-top: 10px;
+    }
+
+    .linknya {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 49vw;
+        font-weight: bold;
+    }
+
+    .linknya li {
+        margin-right: 5px;
+    }
+
+    .linknya span {
+        font-size: 2vw;
+    }
+
+    .linknya a {
+        font-size: 1.3vw;
+    }
+
+    /* icon menu  */
+    .container {
+        margin-left: 5px;
+        margin-top: 7px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+    .home {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .image {
+        background-size: 60%;
+        background-position: 100% 100%;
+        bottom: 0;
+    }
+
+    header {
+        width: 95.8%;
+        padding: 25px;
+    }
+
+    .header_logo {
+        width: 45px;
+        margin: 0px 0px 0px 40px;
+    }
+
+    header span {
+        font-size: 2.5vw;
+        top: 0px;
+    }
+
+    .nav {
+        float: right;
+        margin-right: 50px;
+    }
+
+    .nav a {
+        font-size: 1.6vw;
+        margin-left: 25px;
+    }
+
+    .navnya {
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .im {
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+    .im a{
+        text-decoration: none;
+    }
+
+    .im h2{
+        color :rgb(97, 97, 97);
+    }
+
+    .im a:hover .wa{
+        background-color: rgb(76, 187, 76);
+    }
+    
+    .wa{
+        padding: 10px 50px;
+        border-radius: 40px;
+        width : 200px;
+        line-height: 20px;
+        text-align: center;
+        background-color: rgb(194, 194, 194);
+        color: white;
+        box-shadow: 10px 10px 10px rgb(121, 121, 121);
+    }
+
+    .imgg{
+        margin-right: 10px;
+        font-size:25px
+    }
+
+}
+
+@media only screen and (min-width: 840px) {
+    /* for desktop */
+
+    .home {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .image {
+        margin: 0 15px;
+        background-size: 45%;
+        background-position: 100% 100%;
+        bottom: 0;
+
+    }
+
+    header {
+        width: 95.8%;
+        padding: 25px;
+    }
+
+    .header_logo {
+        width: 45px;
+        margin: 0px 0px 0px 40px;
+    }
+
+    header span {
+        font-size: 2.5vw;
+        top: 0px;
+    }
+
+    .nav {
+        float: right;
+        margin-right: 50px;
+    }
+
+    .nav a {
+        font-size: 1.6vw;
+        margin-left: 25px;
+    }
+
+    .navnya {
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .im {
+        margin-top: 14%;
+        margin-left: 10vw;
+        width: 40%;
+    }
+
+    .im a{
+        text-decoration: none;
+    }
+
+    .im h2{
+        color :rgb(97, 97, 97);
+        font-size : 40px;
+    }
+
+    .im a:hover .wa{
+        background-color: rgb(76, 187, 76);
+    }
+    
+    .wa{
+        padding: 10px 50px;
+        border-radius: 40px;
+        width : 200px;
+        line-height: 20px;
+        text-align: center;
+        background-color: rgb(194, 194, 194);
+        color: white;
+        box-shadow: 10px 10px 10px rgb(121, 121, 121);
+    }
+
+    .imgg{
+        margin-right: 10px;
+        font-size:25px
+    }
+
+}
+
+*/
+
+/* animate */
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
